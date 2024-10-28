@@ -12,3 +12,5 @@ try {
 } catch (error) {
   console.log(`Nao foi possivel conectar ${error}`);
 }
+
+module.exports = sequelize;
